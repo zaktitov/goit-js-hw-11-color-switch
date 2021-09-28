@@ -5,12 +5,13 @@ export const colors = [
   "#FF9800",
   "#009688",
   "#795548",
+  "blue",
 ];
 
 export  const domElements = {
   start: document.querySelector('button[data-action="start"]'),
   stop: document.querySelector('button[data-action="stop"]'),
-  body:document.querySelector("body")
+  body: document.querySelector("body"),
 };
 
 export const randomIntegerFromInterval = (min, max) => {
